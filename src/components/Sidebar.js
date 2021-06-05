@@ -10,6 +10,7 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
 import ListAltIcon from '@material-ui/icons/ListAlt'
 import PermIdentityIcon from '@material-ui/icons/PermIdentity'
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz'
+import { Button } from '@material-ui/core'
 
 function Sidebar() {
     return (
@@ -23,7 +24,7 @@ function Sidebar() {
             <SidebarOption Icon={ListAltIcon} text='Lists' />
             <SidebarOption Icon={PermIdentityIcon} text='Profile' />
             <SidebarOption Icon={MoreHorizIcon} text='More' />
-            
+            <Button className='sidebar_twat' fullWidth variant='outlined'>Twat</Button>
 
             {/* Twat Button */}
         </div>
