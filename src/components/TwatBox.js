@@ -11,7 +11,7 @@ function TwatBox() {
                 <input placeholder="Let it out... Really let it out..." type='text'></input>
                 {/* <input placeholder="Enter image URL..." type='text'></input> */}
                 </div>
-                <Button>Twat</Button>
+                <Button className='twatBox__twatButton'>Twat</Button>
             </form>
         </div>
     )
