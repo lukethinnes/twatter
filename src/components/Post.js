@@ -33,19 +33,19 @@ function Post({
                         </h3>
                     </div>
                     <div className='post__headerDescription'>
-                        <p>bad news fam I am lean, mean and some real tuff stuff punk I spent 15 years in the slammer</p>
+                        <p>MAN IS THE ANIMAL. welcome to the office of torment. I spent 15 years in the slammer.</p>
                     </div>
                 </div>
                 <img 
                 alt='hard_tom'
                 src='https://live.staticflickr.com/3182/2797209187_d05b2fa97b_b.jpg' 
                 />
-            </div>
             <div className='post__footer'>
                 <ChatBubbleOutlineIcon fontSize='small'/>
                 <RepeatIcon fontSize='small'/>
                 <FavoriteBorderIcon fontSize='small'/>
                 <PublishIcon fontSize='small'/>
+            </div>
             </div>
         </div>
     )
