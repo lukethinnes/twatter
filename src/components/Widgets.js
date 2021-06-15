@@ -10,8 +10,8 @@ import {
 function Widgets() {
     return (
         <div className='widgets'>
-            <div className='widgets_input'>
-                <SearchIcon className='widgets_searchIcon' />
+            <div className='widgets__input'>
+                <SearchIcon className='widgets__searchIcon' />
                 <input placeholder='Search Twitter' type='text' />
             </div>
             <div className='widgets__widgetContainer'>
@@ -19,8 +19,12 @@ function Widgets() {
                 <TwitterTweetEmbed tweetId={1402925065616773123} />
                 <TwitterTimelineEmbed
                     sourceType='profile'
-                    screenName='amorousdefi'
+                    screenName='outsideness'
                     options={{ height: 400 }}
+                />
+                <TwitterShareButton
+                    url={'https://facebook.com/frenchkettlestation'}
+                    options={{ text: '#reactjs rules', via: 'Luke'}}
                 />
             </div>
         </div>
