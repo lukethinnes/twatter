@@ -13,6 +13,10 @@ function Feed() {
 
         <TwatBox />
         <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
         </div>
     )
 }
