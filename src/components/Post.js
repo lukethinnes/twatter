@@ -33,7 +33,7 @@ function Post({
                         </h3>
                     </div>
                     <div className='post__headerDescription'>
-                        <p>MAN IS THE ANIMAL. welcome to the office of torment. I spent 15 years in the slammer.</p>
+                        <p>BOW BEFORE ME STEED. Approach the veiled gate of etheric uncoverings. I spent 3 years in Solitary COnfinement.</p>
                     </div>
                 </div>
                 <img 
