@@ -12,11 +12,13 @@ function Feed() {
         </div>
 
         <TwatBox />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <Post 
+            avatar='https://live.staticflickr.com/3182/2797209187_d05b2fa97b_b.jpg' image='https://live.staticflickr.com/3182/2797209187_d05b2fa97b_b.jpg'
+            displayName='Hard Thomas' 
+            text='Yall cowards I swear' 
+            username='slammericon' 
+            verified 
+        />
         </div>
     )
 }

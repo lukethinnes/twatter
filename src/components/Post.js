@@ -20,25 +20,25 @@ function Post({
     return (
         <div className='post'>
             <div className='post__avatar'>
-                <Avatar src='https://live.staticflickr.com/3182/2797209187_d05b2fa97b_b.jpg'></Avatar>
+                <Avatar src={avatar}></Avatar>
             </div>
             <div className='post__body'>
                 <div className='post__header'>
                     <div className='post__headerText'>
                         <h3>
-                            Hard Thomas{' '} 
+                            {displayName}{' '} 
                             <span>
-                                <VerifiedUserIcon className='post__badge'></VerifiedUserIcon>
+                                {verified && <VerifiedUserIcon className='post__badge' />}@{username}
                             </span>
                         </h3>
                     </div>
                     <div className='post__headerDescription'>
-                        <p>BOW BEFORE ME STEED. Approach the veiled gate of etheric uncoverings. I spent 3 years in Solitary COnfinement.</p>
+                        <p>{text}</p>
                     </div>
                 </div>
                 <img 
                 alt='hard_tom'
-                src='https://live.staticflickr.com/3182/2797209187_d05b2fa97b_b.jpg' 
+                src={image} 
                 />
             <div className='post__footer'>
                 <ChatBubbleOutlineIcon fontSize='small'/>
