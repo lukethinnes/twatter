@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import TwatBox from './TwatBox.js';
 import './styles/Feed.css';
 import Post from './Post.js';
-import db from '../firebase.js'
+import db from '../firebase'
 
 
 function Feed() {
@@ -22,13 +22,17 @@ function Feed() {
         </div>
 
         <TwatBox />
+
+        {posts.map(post => (
         <Post 
-            avatar='https://live.staticflickr.com/3182/2797209187_d05b2fa97b_b.jpg' image='https://live.staticflickr.com/3182/2797209187_d05b2fa97b_b.jpg'
-            displayName='Hard Thomas' 
-            text='Yall cowards I swear' 
-            username='slammericon' 
-            verified 
+            avatar={post.avatar}
+            displayName={post.displayName}
+            image={post.image}
+            text={post.text} 
+            username={post.username} 
+            verified={post.verified}
         />
+        ))}
         </div>
     )
 }
