@@ -1,6 +1,6 @@
 # Twatter
 
-A Twitter simulator that will reject posts unless you are being a twat. The UI is intented to match Twitter as close as possible with a sidebar, feed and widgets.
+A Twitter simulator that will reject posts unless you are being a twat. The UI is intented to match Twitter as close as possible with a sidebar, feed and widgets...
 
 # Setup
 
