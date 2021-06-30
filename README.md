@@ -12,4 +12,4 @@ The inspiration for Twatter came from an ongoing discussion in my mind of sites 
 
 # Contact
 
-Reach out to me via [LinkedIn]('http://linkedin.com/in/lucasthinnes') if you have any questions!
+Reach out to me via [LinkedIn](http://linkedin.com/in/lucasthinnes) if you have any questions!
