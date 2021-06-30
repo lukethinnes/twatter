@@ -9,3 +9,7 @@ Run an "npm i" followed by an "npm start" to load this application in your brows
 # Inspiration
 
 The inspiration for Twatter came from an ongoing discussion in my mind of sites that are only novel in their negativity. Many sites have policies which enforce community guidelines and I wanted to flip this idea on its head.
+
+# Contact
+
+Reach out to me via [LinkedIn](http://linkedin.com/in/lucasthinnes) if you have any questions!
