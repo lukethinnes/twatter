@@ -37,7 +37,7 @@ function Post({
                     </div>
                 </div>
                 <img 
-                alt='hard_tom'
+                alt=''
                 src={image} 
                 />
             <div className='post__footer'>

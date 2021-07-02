@@ -30,16 +30,16 @@ function TwatBox() {
                     <Avatar src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FvEJns8TcNKA%2Fmaxresdefault.jpg&f=1&nofb=1'></Avatar>
                 <input 
                     onChange={(event) => setTwat(event.target.value)} 
-                    value={twat} 
                     type='text'
+                    value={twat} 
                 />
                 </div>
-                <input
-                    value={image}
-                    onChange={(event) => setImage(event.target.value)}
+                <input 
                     className='twatBox__imageInput'
+                    onChange={(event) => setImage(event.target.value)}
                     placeholder='Optional: Enter image URL'
                     type='text'
+                    value={image}
                 />
                 <Button 
                     className='twatBox__twatButton'
